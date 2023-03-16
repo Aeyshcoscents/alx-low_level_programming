@@ -1,13 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - A program that prints the size of various computer types
  *
- * Return: o on success
+ * Return: 0 (Success)
  */
 
 int main(void)
 {
+	char a;
+	int b;
+	long int c;
+	long long int d;
+	float f;
 
 	printf("Size of a char: %lu byte(s)", sizeof(char));
 	printf("Size of int: %lu byte(s)", sizeof(int));
